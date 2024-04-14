@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 public class StudentGroup {
@@ -45,3 +46,20 @@ public class StudentGroup {
 
 
 }
+=======
+import java.util.ArrayList;
+import java.util.List;
+public class StudentGroup {
+
+    public String groupName;
+    public List<Student> students;
+
+    public StudentGroup(String groupName){
+
+        this.groupName = groupName;
+        this.students = new ArrayList<>();
+    }
+
+    
+}
+>>>>>>> 3f9951350b38e0503a0f367560b33656e3c3bb63
